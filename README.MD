@@ -12,10 +12,10 @@ Dashboard interaktif untuk menganalisis harga mobil bekas di Arab Saudi. Proyek 
 
 ## Cara Menjalankan (Local)
 
-1. Clone repository `git clone `
+1. Clone repository `git clone https://github.com/hqee/streamlit-car-dashboard.git`
 2. Install library: `pip install -r requirements.txt`
 3. Jalankan aplikasi: `streamlit run app.py`
 
 ## Author
 
-[Nama Kamu]
+Haqi Dhiya' Firmana - Github https://github.com/hqee

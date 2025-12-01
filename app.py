@@ -29,7 +29,7 @@ except Exception as e:
     st.stop()
 
 st.sidebar.title("Menu")
-menu = st.sidebar.radio("", ["Main", "Data Overview", "Exploratory Data Analysis", "Recommendations"])
+menu = st.sidebar.radio("Select Menu :", ["Main", "Data Overview", "Exploratory Data Analysis", "Recommendations"])
 
 if menu == "Main":
     st.title("Saudi Arabia Used Car Analytics")

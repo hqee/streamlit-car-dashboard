@@ -1,26 +1,19 @@
 [theme]
-# Menggunakan basis tema terang
-base = "light"
+# Mengaktifkan mode gelap sebagai basis
+base = "dark"
 
-# Warna Utama (Tombol, Slider, Link) - Saya pilih Biru Navy agar elegan
-primaryColor = "#2E86C1"
+# Warna Aksen Utama (Tombol, Slider, Garis Aktif)
+# Saya pilih Merah Marun terang agar kontras dengan hitam (kesan Sporty)
+primaryColor = "#FF4B4B" 
 
-# Warna Latar Belakang Utama
-backgroundColor = "#FFFFFF"
+# Warna Latar Belakang Utama (Hitam sedikit keabuan agar tidak sakit mata)
+backgroundColor = "#0E1117"
 
 # Warna Latar Belakang Sidebar (Menu Kiri)
-secondaryBackgroundColor = "#F0F2F6"
+secondaryBackgroundColor = "#262730"
 
-# Warna Teks
-textColor = "#31333F"
+# Warna Teks (Putih Gading)
+textColor = "#FAFAFA"
 
-# Jenis Font (sans serif lebih modern untuk dashboard)
+# Font Modern
 font = "sans serif"
-
-[server]
-# Agar saat coding, setiap save langsung refresh otomatis
-runOnSave = true
-
-[client]
-# Menyembunyikan detail error teknis di layar (agar user tidak bingung)
-showErrorDetails = false
